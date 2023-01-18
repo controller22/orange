@@ -25,7 +25,7 @@
             <h1>상품목록 페이지</h1>
             <hr />
             <div class="flex_box">
-                <form action="product/${product.id}/updateForm" method="get">
+                <form action="/product/${product.id}/updateForm" method="get">
                     <button type="submit">수정</button>
                 </form>
                 <form action="/product/delete/${product.id}"method="post">

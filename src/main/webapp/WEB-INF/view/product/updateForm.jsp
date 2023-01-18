@@ -37,7 +37,7 @@
                         <td><input type="text" value="${product.name}" name="name" size="10"> </td>
                         <td><input type="text" value="${product.price}" name="price" size="10"> </td>
                         <td><input type="text" value="${product.qty}" name="qty" size="4"></td>
-                        <td><input type="text" value="${product.createdAt}" name="createdAt" readonly></td>
+                        <td><input type="text" value="${product.created_at}" name="created_at" readonly></td>
                     </tr>
             </form>
             <button type="submit">수정완료</button>
